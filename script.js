@@ -23,19 +23,38 @@
 //     console.log(personalMovieDB);
 // };
 
-for (let i = 1; i < 10; i++) {
-    const a = +prompt("Введи число А", "");
-        if (a !== true) {
-            alert("В жопу!");
-            a = +prompt("Введи число А", "")
-        }
-    const b = +prompt("Введи число Б", "");
-    let sum;
-    sum = a + b;
-    let c = confirm(sum);
-    if (c === false) {
-        alert("В жопу!");
-    } else {
-        alert("Попробуй еще!");
+/*
+Калькулятор
+*/
+// for (let i = 1; i < 10; i++) {
+//     const a = +prompt("Введи число А", "");
+//         if (a !== true) {
+//             alert("В жопу!");
+//             a = +prompt("Введи число А", "")
+//         }
+//     const b = +prompt("Введи число Б", "");
+//     let sum;
+//     sum = a + b;
+//     let c = confirm(sum);
+//     if (c === false) {
+//         alert("В жопу!");
+//     } else {
+//         alert("Попробуй еще!");
+//     }
+// }
+
+// let a = 5;
+// for (let i = 1; i < 7; i++) {
+//     console.log(a);
+//     a++
+// }
+
+let a = ``;
+const b = 7;
+for (i = 1; i <= b; i++) {
+    for (j = 0; j < i; j++) {
+        a += "*";
     }
+    a += `\n`;
 }
+console.log(a);
