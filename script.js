@@ -49,12 +49,29 @@
 //     a++
 // }
 
-let a = ``;
-const b = 7;
-for (i = 1; i <= b; i++) {
-    for (j = 0; j < i; j++) {
-        a += "*";
-    }
-    a += `\n`;
-}
-console.log(a);
+/*
+Звездочка
+*/
+// let a = ``;
+// const b = 7;
+// for (i = 1; i <= b; i++) {
+//     for (j = 0; j < i; j++) {
+//         a += "*";
+//     }
+//     a += `\n`;
+// }
+// console.log(a);
+
+/*
+Вложенный цикл (цикл в цикле)
+*/
+// first: for (let i = 0; i < 6; i++) {
+//     console.log(`Первый ряд: ${i}`);
+//     for (let j = 0; j < 5; j++) {
+//         console.log(`Второй ряд: ${j}`);
+//         for (let k = 0; k < 5; k++) {
+//             console.log(`Третий ряд: ${k}`)
+//             if (k === 3) continue first;
+//         }
+//     }
+// }
